@@ -16,6 +16,7 @@ export default function CryptoListItems({ items }: { items: CryptoItem[] }) {
     setSelectedItemId(id);
     setIsModalOpen(true);
   };
+  
 
   const handleDeleteConfirm = async () => {
     if (selectedItemId) {
